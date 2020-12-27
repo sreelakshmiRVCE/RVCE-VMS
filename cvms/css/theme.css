@@ -3128,9 +3128,9 @@ section {
     border-radius: 10px;
     padding: 30px;
     padding-bottom: 0;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(255, 0, 0, 0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(255, 0, 0, 0.1);
-    box-shadow: 0px 2px 5px 0px rgba(255, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
 }
 
@@ -3148,11 +3148,9 @@ section {
 }
 
 .overview-item--c2 {
-   
-
-    background-image: -moz-linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1) 100%);
-    background-image: -webkit-linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1) 100%);
-    background-image: -ms-linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1) 100%);
+    background-image: -moz-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+    background-image: -webkit-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+    background-image: -ms-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
 }
 
 .overview-item--c3 {
