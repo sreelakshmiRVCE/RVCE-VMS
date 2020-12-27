@@ -64,9 +64,7 @@ CREATE TABLE `tblvisitor` (
   `outtime` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `tblvisitor`
---
+
 
 --
 -- Indexes for dumped tables
