@@ -32,7 +32,7 @@ if(isset($_POST['login']))
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>CVMS Login</title>
+    <title>RVCE-VMS Login</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -65,7 +65,7 @@ if(isset($_POST['login']))
                     <div class="login-content">
                         <div class="login-logo">
                             <a href="#" style="font-size:24px;">
-                               Company Visitor Management System (CVMS)
+                               RVCE VISITOR MANAGEMENT SYSTEM
                             </a>
                         </div>
                          <p style="font-size:16px; color:red" align="center"> <?php if($msg){
@@ -86,7 +86,7 @@ if(isset($_POST['login']))
                                         <a href="forgot-password.php">Forgotten Password?</a>
                                     </label>
                                 </div>
-                                <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit" name="login">sign in</button>
+                                <button class="au-btn au-btn--block au-btn--black m-b-20" type="submit" name="login">sign in</button>
                                 <div class="social-login-content">
                                     
                                 </div>
